@@ -1,0 +1,41 @@
+.navbar_padding{
+    padding-top:10px;
+    align-content: center;
+    align-items: center;
+}
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    align-self: center;
+    align-items: center;
+    cursor: pointer;
+    background: #5d6368;
+    border-radius: 3px;
+  }
+
+.panel_padding{
+    padding-top:50px;
+    margin-left:50px;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+@media (max-width: 701px) {  
+    .navigator_1{
+        display: none;
+        visibility: hidden;
+        visibility: collapse;
+
+    }
+} 
+
+@media (min-width: 700px) {
+    .navigator_2{
+        display: none;
+        visibility: hidden;
+    }
+}
